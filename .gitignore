@@ -1,0 +1,85 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# Streamlit cache
+.streamlit/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and debugging
+*.log
+
+# Package files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Python package manager files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test and coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+test-output/
+
+# PyInstaller
+*.spec
+
+# kagglehub cache
+~/.cache/kagglehub/
+
+# Custom
+screenshots/
+*.db
+*.sqlite3
+
+# Ignore data files
+#*.csv
+*.tsv
+*.json
+*.parquet
+*.zip
+*.tar.gz
+*.h5
+*.hdf5
+
+# Ignore model checkpoints
+*.pt
+*.ckpt
+*.onnx
+*.pb
+
+## Ignore Book Data
+#tagged_description.txt
